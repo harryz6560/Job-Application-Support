@@ -4,12 +4,12 @@ A modern web application to automatically track and manage job applications from
 
 ## Features
 
-- 🚀 **Automatic Data Extraction** - Scrapes job details from major job sites
-- 📱 **Modern UI** - Clean, responsive interface with dark/light mode
-- 🔍 **Search & Filter** - Find applications quickly
-- 📄 **HTML Snapshots** - View original job postings offline  
-- 🎯 **Status Tracking** - Track application status (Applied, Interview, Offer, Rejected)
-- 💾 **Local Database** - All data stored locally in SQLite
+- **Automatic Data Extraction** - Scrapes job details from major job sites
+- **Modern UI** - Clean, responsive interface with dark/light mode
+- **Search & Filter** - Find applications quickly
+- **HTML Snapshots** - View original job postings offline
+- **Status Tracking** - Track application status (Applied, Interview, Offer, Rejected)
+- **Local Database** - All data stored locally in SQLite
 
 ## Tech Stack
 
@@ -18,6 +18,16 @@ A modern web application to automatically track and manage job applications from
 - **Database**: SQLite with SQLAlchemy
 - **Scraping**: Selenium + BeautifulSoup
 - **UI**: Framer Motion animations + Modern components
+
+## Quick Start
+
+Double-click the `start-app.bat` file in the root directory to automatically start both backend and frontend servers.
+
+Alternatively, you can run manually:
+
+```bash
+npm run dev
+```
 
 ## Setup Instructions
 

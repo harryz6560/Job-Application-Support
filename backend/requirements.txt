@@ -12,3 +12,5 @@ python-dotenv
 lxml
 requests[socks]
 selenium-wire
+blinker<1.8
+setuptools

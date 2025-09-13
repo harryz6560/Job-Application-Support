@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-multipart
+beautifulsoup4
+requests
+selenium
+selenium-stealth
+webdriver-manager
+python-dotenv
+lxml
+requests[socks]
+selenium-wire
